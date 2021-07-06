@@ -1,0 +1,211 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
+    height: 100vh;
+}
+.col_2{
+    width:40%;
+    margin: 7% 5%;
+    padding: 3%;
+}
+.col_2 img{
+    width: 100%;
+}
+.skip_diet_h1{
+    font-size: 40px;
+    margin-top: 60px;
+    color: #575757;
+}
+.h1_span{
+    color: #fb934a;
+}
+.skip_diet_p{
+    color: #838382;
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    background-image: linear-gradient( to right, orange, tomato);
+    border-radius: 20px;
+}
+
+
+
+
+                                        /*about-me-section*/
+.about_me{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    height:496px;
+}
+#col_2{
+    width:40%;
+    margin: 7% 5% 0 7%;
+    padding: 3% 3% 0 3%;
+}
+#col_2 img{
+    width:75%;
+}
+.about_me_h1{
+    color: #707070;
+    font-size: 40px;
+}
+.about_me_p{
+    margin-bottom: 50px;
+}
+
+
+
+
+                                        /*my-recipies-section*/
+.my_recipies_section{
+    padding: 50px 50px 0px 50px;
+}
+.my_recipies_title{
+    padding: 0 20%;
+    text-align: center;
+}
+.my_recipies_h1{
+    font-size: 30px;
+    color: #575757;
+}
+.recipi_item_box{
+    height: 400px;
+    padding: 10px 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.col_3{
+    height: 350px;
+    width:25%;
+    margin:4%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 100px gray;
+}
+.recipies_image{
+    margin: 5%;
+    width: 90%;
+    height: 135px;
+    border-radius: 15px;
+    margin-bottom: 35px;
+}
+.recipies_image img{
+    width: 100%;
+}
+.recipies_discription{
+    margin: 5%;
+    width: 90%;
+}
+.recipies_discription_p{
+    font-size: 13px;
+}
+.suggetion_section{
+    padding: 10px 62px 10px 55px;
+    margin-bottom: 20px;
+}
+.suggetion_section_box{
+    height: 120px;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 1px 1px 100px gray;
+}
+.suggetion_box_col_3{
+    width:30%;
+    margin:2%;
+    padding-left: 60px;
+}
+.suggetion_box_col_3_h1{
+    line-height: 5px;
+    margin-top: 30px;
+
+}
+.most_sell_recipies{
+    padding: 30px 20px;
+}
+.most_sell_recipies_col_3{
+    height: 350px;
+    width:25%;
+    margin:4%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 100px gray;
+    background-color: skyblue;
+}
+
+
+
+
+                                        /*testimunial-section*/
+.testimunial_section{
+    height: 450px;
+    padding: 20px;
+}
+.testimunial_header_h1{
+    font-size: 30px;
+    color: #575757;
+    text-align: center;
+}
+.tesimunial_section_box{
+    display: flex;
+}
+.testimunial_col_3{
+    height: 250px;
+    width:25%;
+    margin:4%;
+    padding:0 2%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 100px gray;
+}
+.testimunial_col_3_man{
+    margin: 5% auto;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 35px;
+    border-radius: 50%;
+}
+.man_1{
+    background-image: url(images/female/img_4.jpg);
+    background-size: cover;
+}.man_2{
+    background-image: url(images/female/img_1.jpg);
+    background-size: cover;
+}.man_3{
+    background-image: url(images/female/img_2.jpg);
+    background-size: cover;
+}
+.testimunial_col_3_massage_p{
+    font-size:14px ;
+}
+#tesimunial_section_box_a{
+    margin-left:4%;
+}
+
+
+
+
+                                        /*footer-section*/
+small{
+    line-height: 0;
+}
+footer{
+    height: 140px;
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+.food{
+    color: #FB8F48;
+}
+.footer_h3{
+    color: #5b5b5b;
+}
+.footer_p{
+    color: white;
+    font-size: 12px;
+}
